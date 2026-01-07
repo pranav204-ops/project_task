@@ -1,0 +1,434 @@
+"""
+PDF Extraction Script
+Extracts text from PDF files page by page with validation checks
+"""
+
+import pdfplumber
+import fitz  # PyMuPDF
+import os
+import sys
+import re
+from pathlib import Path
+from typing import List, Tuple, Optional
+
+# Add parent directory to path to import config
+sys.path.insert(0, str(Path(__file__).parent.parent))
+try:
+    from config import PDF_EXTRACTION_CONFIG
+except ImportError:
+    PDF_EXTRACTION_CONFIG = None
+
+
+def clean_text(text: str) -> str:
+    """
+    Clean extracted text by removing binary junk and fixing broken lines
+    
+    Args:
+        text (str): Raw extracted text
+    
+    Returns:
+        str: Cleaned text
+    """
+    if not text:
+        return ""
+    
+    # Remove binary junk (non-printable characters except newlines, tabs, and common punctuation)
+    # Keep only printable ASCII and common Unicode characters
+    text = re.sub(r'[^\x20-\x7E\n\t\u00A0-\uFFFF]', '', text)
+    
+    # Fix broken lines - join lines that don't end with punctuation or are too short
+    lines = text.split('\n')
+    cleaned_lines = []
+    current_line = ""
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            if current_line:
+                cleaned_lines.append(current_line)
+                current_line = ""
+            cleaned_lines.append("")
+            continue
+        
+        # If line ends with punctuation or is a header (all caps, short), it's complete
+        if line.endswith(('.', '!', '?', ':', ';')) or \
+           (line.isupper() and len(line) < 50):
+            if current_line:
+                cleaned_lines.append(current_line)
+            cleaned_lines.append(line)
+            current_line = ""
+        # If current line is empty or previous line ended with punctuation, start new line
+        elif not current_line or cleaned_lines and cleaned_lines[-1].endswith(('.', '!', '?', ':', ';')):
+            current_line = line
+        # Otherwise, join with space
+        else:
+            current_line += " " + line
+    
+    if current_line:
+        cleaned_lines.append(current_line)
+    
+    return '\n'.join(cleaned_lines)
+
+
+def extract_text_with_pdfplumber(pdf_path: str) -> Tuple[List[str], int]:
+    """
+    Extract text from PDF using pdfplumber
+    
+    Args:
+        pdf_path (str): Path to PDF file
+    
+    Returns:
+        Tuple[List[str], int]: List of page texts and total page count
+    """
+    page_texts = []
+    total_pages = 0
+    
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            total_pages = len(pdf.pages)
+            
+            for page_num, page in enumerate(pdf.pages, 1):
+                try:
+                    text = page.extract_text()
+                    if text:
+                        cleaned = clean_text(text)
+                        page_texts.append(cleaned)
+                    else:
+                        # Empty page
+                        page_texts.append("")
+                except Exception as e:
+                    print(f"  Warning: Error extracting page {page_num}: {str(e)}")
+                    page_texts.append("")
+    
+    except Exception as e:
+        print(f"  Error reading PDF with pdfplumber: {str(e)}")
+    
+    return page_texts, total_pages
+
+
+def extract_text_with_pymupdf(pdf_path: str) -> Tuple[List[str], int]:
+    """
+    Extract text from PDF using PyMuPDF (fallback method)
+    
+    Args:
+        pdf_path (str): Path to PDF file
+    
+    Returns:
+        Tuple[List[str], int]: List of page texts and total page count
+    """
+    page_texts = []
+    total_pages = 0
+    
+    try:
+        doc = fitz.open(pdf_path)
+        total_pages = len(doc)
+        
+        for page_num in range(total_pages):
+            try:
+                page = doc[page_num]
+                text = page.get_text()
+                if text:
+                    cleaned = clean_text(text)
+                    page_texts.append(cleaned)
+                else:
+                    page_texts.append("")
+            except Exception as e:
+                print(f"  Warning: Error extracting page {page_num + 1}: {str(e)}")
+                page_texts.append("")
+        
+        doc.close()
+    
+    except Exception as e:
+        print(f"  Error reading PDF with PyMuPDF: {str(e)}")
+    
+    return page_texts, total_pages
+
+
+def extract_company_name(filename: str) -> str:
+    """
+    Extract company name from PDF filename
+    Format: COMPANYNAME_YEAR_BSE_AnnualReport.pdf
+    
+    Args:
+        filename (str): PDF filename
+    
+    Returns:
+        str: Company name
+    """
+    # Remove extension
+    name = Path(filename).stem
+    
+    # Split by underscore and take first part (company name)
+    parts = name.split('_')
+    if parts:
+        return parts[0]
+    return name
+
+
+def extract_output_filename(filename: str) -> str:
+    """
+    Extract output filename (company name + year) from PDF filename
+    Format: COMPANYNAME_YEAR_BSE_AnnualReport.pdf -> COMPANYNAME_YEAR.txt
+    
+    Args:
+        filename (str): PDF filename
+    
+    Returns:
+        str: Output filename without extension (e.g., "TATAMOTORS_2021")
+    """
+    # Remove extension
+    name = Path(filename).stem
+    
+    # Split by underscore
+    parts = name.split('_')
+    
+    # Format: COMPANYNAME_YEAR_BSE_AnnualReport
+    # We want COMPANYNAME_YEAR
+    if len(parts) >= 2:
+        return f"{parts[0]}_{parts[1]}"
+    elif len(parts) == 1:
+        return parts[0]
+    return name
+
+
+def extract_text_from_pdf(pdf_path: str, output_dir: str = "Data/Extracted Text") -> Optional[dict]:
+    """
+    Extract text from a PDF file page by page
+    
+    Args:
+        pdf_path (str): Path to the PDF file
+        output_dir (str): Directory to save extracted text
+    
+    Returns:
+        dict: Extraction results with validation info
+    """
+    pdf_path = Path(pdf_path)
+    
+    if not pdf_path.exists():
+        print(f"Error: PDF file not found: {pdf_path}")
+        return None
+    
+    print(f"\nProcessing: {pdf_path.name}")
+    
+    # Extract company name and output filename from filename
+    company_name = extract_company_name(pdf_path.name)
+    output_filename = extract_output_filename(pdf_path.name)
+    print(f"  Company: {company_name}")
+    print(f"  Output file: {output_filename}.txt")
+    
+    # Try pdfplumber first, fallback to PyMuPDF
+    page_texts, total_pages = extract_text_with_pdfplumber(str(pdf_path))
+    
+    if not page_texts or len(page_texts) == 0:
+        print("  pdfplumber failed, trying PyMuPDF...")
+        page_texts, total_pages = extract_text_with_pymupdf(str(pdf_path))
+    
+    if not page_texts or total_pages == 0:
+        print(f"  Error: Could not extract any pages from {pdf_path.name}")
+        return None
+    
+    # Ensure we have the correct number of pages
+    if len(page_texts) < total_pages:
+        # Fill missing pages with empty strings
+        page_texts.extend([""] * (total_pages - len(page_texts)))
+    
+    # Combine all pages
+    full_text = "\n\n".join([f"--- Page {i+1} ---\n{text}" if text else f"--- Page {i+1} ---\n[EMPTY PAGE]" 
+                              for i, text in enumerate(page_texts)])
+    
+    # Create output directory
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+    
+    # Save extracted text with company name and year
+    output_file = output_path / f"{output_filename}.txt"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(full_text)
+    
+    # Validation checks
+    empty_pages = [i+1 for i, text in enumerate(page_texts) if not text.strip()]
+    binary_junk = bool(re.search(r'[^\x20-\x7E\n\t\u00A0-\uFFFF]', full_text))
+    
+    # Count non-empty pages
+    non_empty_pages = sum(1 for text in page_texts if text.strip())
+    
+    result = {
+        'pdf_path': str(pdf_path),
+        'output_file': str(output_file),
+        'company_name': company_name,
+        'output_filename': output_filename,
+        'total_pages': total_pages,
+        'extracted_pages': len(page_texts),
+        'non_empty_pages': non_empty_pages,
+        'empty_pages': empty_pages,
+        'has_binary_junk': binary_junk,
+        'success': True
+    }
+    
+    print(f"  Total pages: {total_pages}")
+    print(f"  Extracted pages: {len(page_texts)}")
+    print(f"  Non-empty pages: {non_empty_pages}")
+    if empty_pages:
+        print(f"  Empty pages: {empty_pages}")
+    print(f"  Saved to: {output_file}")
+    
+    return result
+
+
+def validate_extraction(pdf_path: str, output_dir: str = "Data/Extracted Text") -> dict:
+    """
+    Validate that extraction was successful
+    
+    Args:
+        pdf_path (str): Path to PDF file
+        output_dir (str): Directory containing extracted text files
+    
+    Returns:
+        dict: Validation results
+    """
+    pdf_path = Path(pdf_path)
+    output_filename = extract_output_filename(pdf_path.name)
+    output_file = Path(output_dir) / f"{output_filename}.txt"
+    
+    validation = {
+        'pdf_exists': pdf_path.exists(),
+        'txt_file_exists': output_file.exists(),
+        'txt_file_size': 0,
+        'has_content': False,
+        'missing_pages': False,
+        'has_binary_junk': False,
+        'valid': False
+    }
+    
+    if not validation['pdf_exists']:
+        return validation
+    
+    if not validation['txt_file_exists']:
+        return validation
+    
+    # Check file size
+    validation['txt_file_size'] = output_file.stat().st_size
+    
+    if validation['txt_file_size'] == 0:
+        return validation
+    
+    # Read and check content
+    try:
+        with open(output_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        validation['has_content'] = len(content.strip()) > 0
+        
+        # Check for binary junk
+        validation['has_binary_junk'] = bool(re.search(r'[^\x20-\x7E\n\t\u00A0-\uFFFF]', content))
+        
+        # Count pages in extracted text
+        page_markers = len(re.findall(r'--- Page \d+ ---', content))
+        
+        # Try to get PDF page count
+        try:
+            with pdfplumber.open(str(pdf_path)) as pdf:
+                pdf_page_count = len(pdf.pages)
+                # Check if we have the correct number of page markers
+                validation['missing_pages'] = page_markers < pdf_page_count
+                if validation['missing_pages']:
+                    print(f"    Warning: Expected {pdf_page_count} pages, found {page_markers} page markers")
+        except Exception as e:
+            # Fallback: try PyMuPDF
+            try:
+                doc = fitz.open(str(pdf_path))
+                pdf_page_count = len(doc)
+                validation['missing_pages'] = page_markers < pdf_page_count
+                if validation['missing_pages']:
+                    print(f"    Warning: Expected {pdf_page_count} pages, found {page_markers} page markers")
+                doc.close()
+            except:
+                pass
+        
+        validation['valid'] = (
+            validation['txt_file_exists'] and
+            validation['has_content'] and
+            not validation['has_binary_junk'] and
+            not validation['missing_pages']
+        )
+    
+    except Exception as e:
+        print(f"  Validation error: {str(e)}")
+    
+    return validation
+
+
+def extract_all_pdfs(input_dir: str = "Data/Raw PDFs", output_dir: str = "Data/Extracted Text"):
+    """
+    Extract text from all PDF files in a directory
+    
+    Args:
+        input_dir (str): Directory containing PDF files
+        output_dir (str): Directory to save extracted text files
+    """
+    pdf_dir = Path(input_dir)
+    
+    if not pdf_dir.exists():
+        print(f"Error: Directory {input_dir} does not exist!")
+        return
+    
+    pdf_files = sorted(list(pdf_dir.glob("*.pdf")))
+    
+    if not pdf_files:
+        print(f"No PDF files found in {input_dir}")
+        return
+    
+    print(f"Found {len(pdf_files)} PDF file(s)")
+    print("=" * 60)
+    
+    results = []
+    
+    # Extract text from all PDFs
+    for pdf_file in pdf_files:
+        result = extract_text_from_pdf(str(pdf_file), output_dir)
+        if result:
+            results.append(result)
+    
+    print("\n" + "=" * 60)
+    print("VALIDATION SUMMARY")
+    print("=" * 60)
+    
+    # Validate all extractions
+    validation_results = []
+    for pdf_file in pdf_files:
+        validation = validate_extraction(str(pdf_file), output_dir)
+        validation_results.append({
+            'pdf': pdf_file.name,
+            'validation': validation
+        })
+        
+        output_filename = extract_output_filename(pdf_file.name)
+        company_name = extract_company_name(pdf_file.name)
+        print(f"\n{output_filename} ({company_name}):")
+        print(f"  PDF exists: {validation['pdf_exists']}")
+        print(f"  TXT file exists: {validation['txt_file_exists']}")
+        print(f"  Has content: {validation['has_content']}")
+        print(f"  File size: {validation['txt_file_size']} bytes")
+        print(f"  Missing pages: {validation['missing_pages']}")
+        print(f"  Has binary junk: {validation['has_binary_junk']}")
+        print(f"  Valid: {'YES' if validation['valid'] else 'NO'}")
+    
+    # Summary statistics
+    valid_count = sum(1 for v in validation_results if v['validation']['valid'])
+    print(f"\n{'=' * 60}")
+    print(f"Total PDFs processed: {len(pdf_files)}")
+    print(f"Successfully extracted: {len(results)}")
+    print(f"Valid extractions: {valid_count}/{len(pdf_files)}")
+    print(f"{'=' * 60}")
+
+
+if __name__ == "__main__":
+    # Extract text from all PDFs in the Raw PDFs directory
+    if PDF_EXTRACTION_CONFIG:
+        extract_all_pdfs(
+            input_dir=PDF_EXTRACTION_CONFIG["input_dir"],
+            output_dir=PDF_EXTRACTION_CONFIG["output_dir"]
+        )
+    else:
+        extract_all_pdfs()
+
