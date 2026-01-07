@@ -1,0 +1,25 @@
+{
+  "company": "TCS_2022",
+  "positive": [
+    "The company generated consolidated revenues of US $25.7 billion, experiencing strong growth of 15.9%.",
+    "TCS has a cash conversion ratio of 104.2% and free cash flow of \u20b936,985 crore.",
+    "The company successfully completed its fourth buyback, amounting to over 102.8% of the free cash flow.",
+    "TCS ranked #1 in Customer Satisfaction in the UK for the ninth consecutive year.",
+    "The company has crossed a key diversity milestone with women in the workforce exceeding 200,000."
+  ],
+  "negative": [
+    "TCS\u2019 attrition in IT services was 17.4% in FY 2022, indicating a sharp rise in employee turnover across the industry.",
+    "The supply chain upheavals during the past couple of years are driving a shift towards rebalancing and resilience.",
+    "The geo-political tensions in Europe and the resultant impact on global economic growth are real threats."
+  ],
+  "forward_looking": [
+    "The company aims to deepen customer relationships, expand its addressable market, and gain market share in the years ahead.",
+    "TCS expects technology spending to continue growing, with a focus on cloud migration and digital workplace initiatives.",
+    "The company is confident of being able to sustain a certain base case growth, with room to maximize in better years."
+  ],
+  "risks": [
+    "The change in technology consumption reflects the prevailing trends in the economy, which may impact business operations.",
+    "The COVID-19 pandemic continues to pose risks to business continuity and employee health.",
+    "The company faces risks related to volatile global economic scenarios and potential reductions in client spending."
+  ]
+}

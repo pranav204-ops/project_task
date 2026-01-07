@@ -1,0 +1,24 @@
+{
+  "company": "TRENT_2023",
+  "positive": [
+    "The consolidated performance of the Company and its subsidiaries has shown significant growth.",
+    "Revenue increased by 32% CAGR over the past financial years.",
+    "Profit after tax grew by 45% CAGR, reflecting strong financial health.",
+    "The Company has a strong market presence with nearly 100% servicing of online orders from stores.",
+    "The Westside brand registered a 49% like-for-like growth in sales in FY23."
+  ],
+  "negative": [
+    "The Company faced an adverse impact of `104 Crore due to the adoption of IndAS 116 accounting standard.",
+    "The total comprehensive loss for the year was `44 Crore.",
+    "There were instances of significant legal disputes regarding service tax on renting of immovable property."
+  ],
+  "forward_looking": [
+    "The Company aims to accelerate growth by addressing market opportunities and enhancing product propositions.",
+    "Future strategies include improving efficiencies in the supply chain and reducing emissions per garment shipped."
+  ],
+  "risks": [
+    "The Company faces risks related to cybersecurity and data privacy, which could lead to reputational damage.",
+    "There are scalability risks due to limited availability of quality real estate and high rentals.",
+    "The Company is exposed to foreign currency risk through purchases from overseas parties."
+  ]
+}

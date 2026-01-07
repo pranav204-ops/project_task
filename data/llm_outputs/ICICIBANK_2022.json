@@ -1,0 +1,38 @@
+{
+  "company": "ICICIBANK_2022",
+  "positive": [
+    "The Indian economy saw a strong recovery and progress towards normalcy.",
+    "The Bank's mobile applications have become universal and open architecture, enabling expansion of services.",
+    "Core operating profit increased by 22.3% on a year-on-year basis.",
+    "The Bank's net non-performing assets decreased from 1.14% at March 31, 2021 to 0.76% at March 31, 2022.",
+    "The Bank's total capital adequacy ratio was 19.16% as against the requirement of 11.70%.",
+    "The Bank reported a revaluation gain amounting to ` 1,724.9 million on account of revaluation carried out.",
+    "Total fixed assets increased to ` 93,738,159 from ` 88,775,806.",
+    "Interest earned increased to ` 954,068,654 from ` 891,626,638.",
+    "Net profit after minority interest increased to ` 251,100,960 from ` 183,843,186.",
+    "The average liquidity coverage ratio of the Bank for the three months ended March 31, 2022 was 131.09%."
+  ],
+  "negative": [
+    "The year ended with challenges of high energy prices and inflation.",
+    "The Bank's provisions and contingencies increased from 2021 to 2022.",
+    "The Bank's net impairment ratio decreased from 2.2% at March 31, 2021 to 2.0% at March 31, 2022.",
+    "The Bank's total other assets decreased to ` 713,988,010 from ` 869,447,777.",
+    "Total provisions and contingencies increased to ` 159,108.2 million from ` 202,044.4 million.",
+    "The Bank's operating expenses increased to ` 731,517,275 from ` 762,716,696.",
+    "The Bank's total contingent liabilities increased to ` 45,523,411,167 from ` 30,213,442,288.",
+    "The Bank's deferred tax assets decreased to ` 79,484,847 from ` 93,350,216."
+  ],
+  "forward_looking": [
+    "The Bank aims to grow its risk-calibrated core operating profit by conducting business within well-defined risk tolerance levels.",
+    "The Bank will continue to maintain a strong risk and capital management strategy while pursuing growth opportunities.",
+    "The future trajectory of the pandemic may have an impact on the results of the Bank and the Group.",
+    "The Bank will need to incorporate regulatory guidelines and clarifications in some critical areas of Ind AS application."
+  ],
+  "risks": [
+    "The Bank is exposed to various risks, including credit risk, market risk, liquidity risk, operational risk, technology risk, and compliance risk.",
+    "The ongoing geopolitical tensions and inflationary pressures could impact the Bank's performance.",
+    "The Bank's liquidity management is subject to regulatory requirements and market conditions.",
+    "The Bank faces risks related to changes in market interest rates and currency rates.",
+    "The Bank's exposure to sensitive sectors may impact its financial performance."
+  ]
+}

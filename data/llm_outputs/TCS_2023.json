@@ -1,0 +1,26 @@
+{
+  "company": "TCS_2023",
+  "positive": [
+    "In FY 2023, the company delivered revenue of \u20b9225,458 crore, a growth of 17.6%.",
+    "The company has an industry-leading operating margin of 24.1%.",
+    "TCS has over 614,000 associates with 35.7% women associates.",
+    "The company is significantly investing in building AI capabilities which include products and platforms that are AI-powered.",
+    "TCS was named to FORTUNE\u00ae magazine\u2019s list of the World\u2019s Most Admired Companies.",
+    "TCS topped the list of 23 IT service providers ranked on customer satisfaction, scoring 83%."
+  ],
+  "negative": [
+    "Geopolitical factors such as the conflict between Russia and Ukraine, rising inflation, and volatile commodity prices have impacted the business environment.",
+    "The company faced a high attrition rate of 20.1% in FY 2023.",
+    "The company experienced a decline in net margin to 18.7%."
+  ],
+  "forward_looking": [
+    "The company aims to achieve net zero emissions by 2030.",
+    "TCS expects to see further growth in cloud transformation revenues.",
+    "The strong pipeline replenishment gives good visibility for the medium term."
+  ],
+  "risks": [
+    "Volatile global political and economic conditions can affect demand for the company's services.",
+    "Talent scarcity can lead to poaching of employees and impact revenue growth.",
+    "Cybersecurity risks and compliance with regulations pose significant challenges."
+  ]
+}
