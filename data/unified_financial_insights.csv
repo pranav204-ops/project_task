@@ -1,0 +1,260 @@
+company,statement,category,sentiment,confidence
+BAJAJFINSV_2022,The Company declared a dividend of ₹ 4 per equity share for FY2022.,positive,neutral,0.909656644
+BAJAJFINSV_2022,Bajaj Finserv continues to be one of the most efficient users of capital among private sector insurance companies.,positive,positive,0.82027775
+BAJAJFINSV_2022,"In FY2022, BHFL earned total income of ₹ 3,767 crore and profit after tax of ₹ 710 crore.",positive,neutral,0.916086257
+BAJAJFINSV_2022,The Board of Directors has recommended a dividend of ₹ 4 per equity share for FY2022 for the approval of members.,positive,neutral,0.869805872
+BAJAJFINSV_2022,"BFL continues to be the dominant lender for consumer electronics, financing 12.7 million purchases in FY2022.",positive,positive,0.722452998
+BAJAJFINSV_2022,"BFL's assets under management increased by 29% to ₹ 197,452 crore.",positive,positive,0.95352459
+BAJAJFINSV_2022,BFS Group strives to influence its value chain partners to participate in responsible and sustainable business conduct.,positive,positive,0.691019654
+BAJAJFINSV_2022,"The Group has trained about 17,800 Debt Recovery Agents.",positive,neutral,0.787918568
+BAJAJFINSV_2022,BFS and its subsidiaries have zero tolerance towards unethical business practices.,positive,neutral,0.895825326
+BAJAJFINSV_2022,The Group has invested `1.14 crore for rooftop solar plant installations at certain offices during the year.,positive,positive,0.501484811
+BAJAJFINSV_2022,Corporate offices of the Group companies have ramps for easy movement and wheelchair accessible restrooms for specially abled people.,positive,neutral,0.917016387
+BAJAJFINSV_2022,BFS Group trains its employees on safety protocols by conducting periodic trainings on fire safety and evacuation drills.,positive,neutral,0.924928427
+BAJAJFINSV_2022,All Group companies extend various support and compensatory packages in the event of death of permanent employees.,positive,neutral,0.937620223
+BAJAJFINSV_2022,"The Group has received green, disposable and recycling certificates from the respective e-waste handlers.",positive,positive,0.843399644
+BAJAJFINSV_2022,"The Company faced challenges due to the Covid-19 pandemic, which impacted its operations.",negative,negative,0.952789247
+BAJAJFINSV_2022,The second wave of the pandemic had an adverse impact on loan losses in the SME segment.,negative,negative,0.945400774
+BAJAJFINSV_2022,The general insurance industry faced a difficult environment amid the resurgence of the Covid pandemic.,negative,negative,0.952006042
+BAJAJFINSV_2022,No corrective actions pertaining to above mentioned parameters was necessitated by the Group during the year under review.,negative,neutral,0.917422116
+BAJAJFINSV_2022,"Given the nature of the business, BFS Group companies do not currently maintain records for hazardous and other waste generation.",negative,neutral,0.939186811
+BAJAJFINSV_2022,No corrective actions pertaining to Question 9 was necessitated by the Group during the year under review.,negative,neutral,0.845189512
+BAJAJFINSV_2022,No corrective actions pertaining to Question 4 was necessitated by the Group during the year under review.,negative,neutral,0.853417516
+BAJAJFINSV_2022,The Company plans to open another 50 financial inclusion branches in FY2023.,forward_looking,neutral,0.511175811
+BAJAJFINSV_2022,BFL aims to maintain a liquidity coverage ratio of 70% from 1 December 2022.,forward_looking,positive,0.78615123
+BAJAJFINSV_2022,The Group believes that it is still learning the evolving aspects of ESG and lays significant importance to such interactions.,forward_looking,positive,0.704318881
+BAJAJFINSV_2022,The Group further endeavours to expand the coverage of assessments by external agencies to more organisations in the coming years.,forward_looking,positive,0.878964603
+BAJAJFINSV_2022,The Company is exposed to market risks including interest rate fluctuations and foreign exchange risks.,risks,neutral,0.870231986
+BAJAJFINSV_2022,"Credit risk arises from the potential default of borrowers, which is monitored through various metrics.",risks,neutral,0.935790837
+BAJAJFINSV_2022,"Operational risks include system failures and fraud, which are managed through internal controls and audits.",risks,negative,0.585898042
+BAJAJFINSV_2022,The applicable processes have been briefly described in ‘a’ above.,risks,neutral,0.946200669
+BAJAJFINSV_2022,"During the year, no such instances have been noted which necessitated further action.",risks,neutral,0.568860114
+ICICIBANK_2022,The Indian economy saw a strong recovery and progress towards normalcy.,positive,positive,0.952148139
+ICICIBANK_2022,"The Bank's mobile applications have become universal and open architecture, enabling expansion of services.",positive,positive,0.710562646
+ICICIBANK_2022,Core operating profit increased by 22.3% on a year-on-year basis.,positive,positive,0.959124327
+ICICIBANK_2022,"The Bank's net non-performing assets decreased from 1.14% at March 31, 2021 to 0.76% at March 31, 2022.",positive,negative,0.969251394
+ICICIBANK_2022,The Bank's total capital adequacy ratio was 19.16% as against the requirement of 11.70%.,positive,neutral,0.81866467
+ICICIBANK_2022,"The Bank reported a revaluation gain amounting to ` 1,724.9 million on account of revaluation carried out.",positive,positive,0.693239808
+ICICIBANK_2022,"Total fixed assets increased to ` 93,738,159 from ` 88,775,806.",positive,positive,0.949600101
+ICICIBANK_2022,"Interest earned increased to ` 954,068,654 from ` 891,626,638.",positive,positive,0.953618944
+ICICIBANK_2022,"Net profit after minority interest increased to ` 251,100,960 from ` 183,843,186.",positive,positive,0.95482856
+ICICIBANK_2022,"The average liquidity coverage ratio of the Bank for the three months ended March 31, 2022 was 131.09%.",positive,neutral,0.934921265
+ICICIBANK_2022,The year ended with challenges of high energy prices and inflation.,negative,negative,0.932529032
+ICICIBANK_2022,The Bank's provisions and contingencies increased from 2021 to 2022.,negative,positive,0.893401742
+ICICIBANK_2022,"The Bank's net impairment ratio decreased from 2.2% at March 31, 2021 to 2.0% at March 31, 2022.",negative,negative,0.965385675
+ICICIBANK_2022,"The Bank's total other assets decreased to ` 713,988,010 from ` 869,447,777.",negative,negative,0.964397609
+ICICIBANK_2022,"Total provisions and contingencies increased to ` 159,108.2 million from ` 202,044.4 million.",negative,positive,0.951275051
+ICICIBANK_2022,"The Bank's operating expenses increased to ` 731,517,275 from ` 762,716,696.",negative,positive,0.953592479
+ICICIBANK_2022,"The Bank's total contingent liabilities increased to ` 45,523,411,167 from ` 30,213,442,288.",negative,positive,0.94536972
+ICICIBANK_2022,"The Bank's deferred tax assets decreased to ` 79,484,847 from ` 93,350,216.",negative,negative,0.9629637
+ICICIBANK_2022,The Bank aims to grow its risk-calibrated core operating profit by conducting business within well-defined risk tolerance levels.,forward_looking,positive,0.922674119
+ICICIBANK_2022,The Bank will continue to maintain a strong risk and capital management strategy while pursuing growth opportunities.,forward_looking,positive,0.863852203
+ICICIBANK_2022,The future trajectory of the pandemic may have an impact on the results of the Bank and the Group.,forward_looking,neutral,0.642718852
+ICICIBANK_2022,The Bank will need to incorporate regulatory guidelines and clarifications in some critical areas of Ind AS application.,forward_looking,neutral,0.851979434
+ICICIBANK_2022,"The Bank is exposed to various risks, including credit risk, market risk, liquidity risk, operational risk, technology risk, and compliance risk.",risks,neutral,0.886223257
+ICICIBANK_2022,The ongoing geopolitical tensions and inflationary pressures could impact the Bank's performance.,risks,negative,0.94966495
+ICICIBANK_2022,The Bank's liquidity management is subject to regulatory requirements and market conditions.,risks,neutral,0.942781091
+ICICIBANK_2022,The Bank faces risks related to changes in market interest rates and currency rates.,risks,negative,0.779378176
+ICICIBANK_2022,The Bank's exposure to sensitive sectors may impact its financial performance.,risks,negative,0.878578246
+TATAMOTORS_2021,FY 21 ended on a strong note with EBITDA margins of 12.2% and EBIT margins of 2.6%.,positive,positive,0.953302681
+TATAMOTORS_2021,"Tata Motors recorded its highest ever annual sales in 8 years, growing its market share to 8.2%.",positive,positive,0.950671434
+TATAMOTORS_2021,"Jaguar Land Rover achieved double-digit sales growth in China, contributing to strong performance.",positive,positive,0.957063735
+TATAMOTORS_2021,"The launch of Tata Intra, Yodha BS VI, and Ace Petrol are steps towards recovery.",positive,positive,0.92113632
+TATAMOTORS_2021,The company has a strong focus on sustainability and aims to achieve net zero carbon emissions by 2039.,positive,positive,0.763199925
+TATAMOTORS_2021,"The Company enhanced its market share to 8.1% for the year ended March 31, 2021, compared to 4.8% for the previous year.",positive,positive,0.956884563
+TATAMOTORS_2021,The Company recorded its highest ever annual sales in the Passenger Vehicle business.,positive,positive,0.942823946
+TATAMOTORS_2021,The Company achieved a successful transition to BSVI standards despite several headwinds.,positive,positive,0.947367847
+TATAMOTORS_2021,The Company improved its Industry leading score in customer satisfaction metrics significantly.,positive,positive,0.960124075
+TATAMOTORS_2021,The Company has ongoing significant profitability.,positive,positive,0.95127207
+TATAMOTORS_2021,The Board believes that linking employee performance with other initiatives will assist in improving the financials of the Company.,positive,positive,0.933867514
+TATAMOTORS_2021,FY 21 was an extremely challenging year with severe business disruptions due to the COVID-19 pandemic.,negative,negative,0.965154886
+TATAMOTORS_2021,Jaguar Land Rover experienced a 14% drop in revenue to £19.7 billion.,negative,negative,0.975035429
+TATAMOTORS_2021,"The pandemic resulted in muted consumer demand, impacting overall sales.",negative,negative,0.971296847
+TATAMOTORS_2021,"The company reported a net loss of ₹13,451 crores in FY 2020-21.",negative,negative,0.862482727
+TATAMOTORS_2021,"The automotive industry faced significant challenges, including supply chain disruptions and rising costs.",negative,negative,0.956868768
+TATAMOTORS_2021,"The Company reported a loss of `13,451.39 crores for the year ended March 31, 2021.",negative,negative,0.89179033
+TATAMOTORS_2021,"The Company faced significant challenges due to the COVID-19 pandemic, impacting operations and financial results.",negative,negative,0.966356695
+TATAMOTORS_2021,"The Company recorded an exceptional charge of `14,994.30 crores under Jaguar Land Rover’s Reimagine strategy.",negative,positive,0.630487561
+TATAMOTORS_2021,The Company has incurred a loss as computed under Section 198 of the Act.,negative,negative,0.95176667
+TATAMOTORS_2021,No commission would be payable to the Non-Executive Directors for FY 2020-21.,negative,neutral,0.951857865
+TATAMOTORS_2021,"By FY 24, Tata Motors aims to become the most aspirational Indian auto brand.",forward_looking,positive,0.865167677
+TATAMOTORS_2021,Jaguar Land Rover plans to launch its first all-electric model by 2024 and aims for a fully electric fleet by 2030.,forward_looking,neutral,0.54085052
+TATAMOTORS_2021,The company anticipates gradual improvement in performance as the impact of the pandemic recedes.,forward_looking,positive,0.953066885
+TATAMOTORS_2021,"The Company expects to contribute `100.94 crores to the funded pension plans during the year ending March 31, 2022.",forward_looking,positive,0.600135624
+TATAMOTORS_2021,The Company anticipates a smooth transition to electrification and alternate fuel options for a sustainable future.,forward_looking,positive,0.902999103
+TATAMOTORS_2021,The Company will undertake projects/establishments in and outside India.,forward_looking,neutral,0.872803688
+TATAMOTORS_2021,"The company faces risks related to the ongoing COVID-19 pandemic, which could adversely affect its business.",risks,negative,0.850996673
+TATAMOTORS_2021,Deterioration in global economic conditions could impact sales and results of operations.,risks,negative,0.931752205
+TATAMOTORS_2021,Intensifying competition in the automotive industry may adversely affect market share and profitability.,risks,negative,0.922279119
+TATAMOTORS_2021,"Supply chain disruptions, particularly in semiconductor availability, pose significant risks to production.",risks,negative,0.952515185
+TATAMOTORS_2021,"The Company is exposed to fluctuations in foreign currency exchange rates, interest rates, equity prices, liquidity, and credit risk.",risks,neutral,0.720151067
+TATAMOTORS_2021,The Company faces legal proceedings and claims that may adversely affect its financial condition.,risks,negative,0.924764276
+TATAMOTORS_2021,"The Company has contingent liabilities amounting to `1,421.98 crores related to sales tax demands being contested.",risks,negative,0.759565532
+TATAMOTORS_2021,The remuneration is linked to the performance matrices which may pose risks if not achieved.,risks,neutral,0.806151748
+TATAMOTORS_2022,Tata Motors is among the world’s leading manufacturers of ready automobiles.,positive,positive,0.541880727
+TATAMOTORS_2022,"The Passenger Vehicles segment grew volumes by 67%, achieving the highest ever domestic annual sales of 3,70,354 units in FY22.",positive,positive,0.956729829
+TATAMOTORS_2022,Tata Motors has taken a giant leap forward in connecting the aspirations of its stakeholders by defining the future of mobility.,positive,positive,0.817027628
+TATAMOTORS_2022,The Company is pioneering India’s Electric Vehicle transition and enjoys considerable advantage in one of the fastest growing automotive markets in the world.,positive,positive,0.904222906
+TATAMOTORS_2022,Tata Motors has outlined its sustainability strategy and a clear roadmap of migration towards green mobility Net Zero.,positive,positive,0.884670079
+TATAMOTORS_2022,The Company has maintained high standards of corporate governance and public disclosure.,positive,neutral,0.813897371
+TATAMOTORS_2022,The Board of Directors is committed to providing strategic direction and leadership.,positive,neutral,0.537328601
+TATAMOTORS_2022,The Company has successfully complied with all applicable laws and regulations to date.,positive,positive,0.8757388
+TATAMOTORS_2022,The Company has a robust IT-enabled compliance management system for tracking and managing compliance.,positive,positive,0.753044724
+TATAMOTORS_2022,The Company has received all necessary regulatory approvals for its operations.,positive,positive,0.877129257
+TATAMOTORS_2022,The Company has reversed the initially recognised impairment for this CGU.,positive,positive,0.514876604
+TATAMOTORS_2022,"The Company has enhanced its market share to 8.1% for the year ended March 31, 2021 as compared to 4.8% for the year ended March 31, 2020.",positive,positive,0.954502046
+TATAMOTORS_2022,The fair value of the CGU is significantly higher than its carrying value.,positive,positive,0.620580792
+TATAMOTORS_2022,"Despite the margins being impacted by supply chain issues and runaway commodity inflation, our India business remains in good health.",negative,positive,0.948610783
+TATAMOTORS_2022,"Revenue fell 7% to £18.3 billion, whilst the Company's free cash flow was negative at £1.16 billion for FY22.",negative,negative,0.975324512
+TATAMOTORS_2022,Jaguar Land Rover's revenue fell by 16% in FY22 on account of supply chain issues.,negative,negative,0.975626826
+TATAMOTORS_2022,"The Company reported a loss of ₹11,308.76 crore for the year, compared to a loss of ₹13,395.10 crore in the previous year.",negative,negative,0.958832383
+TATAMOTORS_2022,The ongoing global semiconductor shortage has significantly impacted production schedules.,negative,negative,0.970497847
+TATAMOTORS_2022,The Company experienced significant losses in the financial year.,negative,negative,0.968505979
+TATAMOTORS_2022,There are risks associated with instability in the market and significant currency fluctuations.,negative,negative,0.480755359
+TATAMOTORS_2022,The Company may face adverse effects on trading agreements due to changes in government policies.,negative,negative,0.943973601
+TATAMOTORS_2022,The Company has been subject to investigations regarding anti-competitive practices.,negative,negative,0.859085917
+TATAMOTORS_2022,The Company has faced challenges related to compliance with new regulatory requirements.,negative,negative,0.918537498
+TATAMOTORS_2022,"The Company recorded a net loss of 11,441.47 crores for the year ended March 31, 2022.",negative,negative,0.849345982
+TATAMOTORS_2022,"The Company made a provision for estimated supplier claims of 114.00 crores, which were under negotiations with suppliers.",negative,neutral,0.479111731
+TATAMOTORS_2022,"The Company recorded inventory write-down expense of 125.34 crores during the year ended March 31, 2022.",negative,negative,0.955774784
+TATAMOTORS_2022,"By 2025, Tata Motors will have 10 EVs in its portfolio.",forward_looking,neutral,0.780687749
+TATAMOTORS_2022,60% of Jaguar Land Rover’s volumes will be pure BEV vehicles by 2030.,forward_looking,neutral,0.839335501
+TATAMOTORS_2022,"The Company aims to achieve net zero carbon emissions across its supply chain, products, and operations by 2039.",forward_looking,positive,0.768478274
+TATAMOTORS_2022,The EV market is expected to grow at a CAGR of 36% until 2026.,forward_looking,positive,0.910438061
+TATAMOTORS_2022,Jaguar Land Rover plans to launch a pure electric Range Rover by 2024 and five additional all-electric Land Rover models by 2026.,forward_looking,neutral,0.775170743
+TATAMOTORS_2022,The Company expects to continue monitoring the impact of COVID-19 on its operations and financial condition.,forward_looking,positive,0.541513205
+TATAMOTORS_2022,The Company aims to improve its liquidity position and operational efficiency in the coming year.,forward_looking,positive,0.954638481
+TATAMOTORS_2022,The Company anticipates a gradual recovery in industry volumes as semiconductor supply improves.,forward_looking,positive,0.953621507
+TATAMOTORS_2022,The Company plans to focus on high-margin products to enhance profitability.,forward_looking,positive,0.933276892
+TATAMOTORS_2022,"The Company expects to contribute 84.20 crores to the funded pension plans in the year ending March 31, 2023.",forward_looking,positive,0.528965652
+TATAMOTORS_2022,The Company anticipates that the hedged sales will take place over the next one to five years.,forward_looking,neutral,0.878491044
+TATAMOTORS_2022,The ongoing shortage of semiconductors could disrupt production and delay the rollout of new vehicles.,risks,negative,0.958824635
+TATAMOTORS_2022,Changes in government regulations and fiscal policies may adversely impact the Company's operations.,risks,negative,0.902482569
+TATAMOTORS_2022,"The Company is exposed to risks associated with product liability, warranties, and recalls.",risks,neutral,0.547363997
+TATAMOTORS_2022,Economic downturns and changes in consumer preferences could negatively affect demand for vehicles.,risks,negative,0.868907452
+TATAMOTORS_2022,Jaguar Land Rover's operations may be significantly affected by geopolitical tensions and trade restrictions.,risks,negative,0.827357769
+TATAMOTORS_2022,The Company faces risks related to fluctuations in foreign currency exchange rates.,risks,negative,0.709811568
+TATAMOTORS_2022,There is a risk of adverse interpretations of tax laws that could impact financial results.,risks,negative,0.91371429
+TATAMOTORS_2022,The Company is exposed to risks from changes in laws and regulations affecting the automotive industry.,risks,neutral,0.581533611
+TATAMOTORS_2022,The Company may encounter difficulties in meeting its financial obligations due to liquidity risks.,risks,negative,0.935351908
+TATAMOTORS_2022,The Company faces potential penalties and legal challenges related to compliance with various regulations.,risks,negative,0.952360153
+TATAMOTORS_2022,The assumptions made about the outcome of legal proceedings are subject to a high degree of uncertainty.,risks,neutral,0.903949499
+TATAMOTORS_2022,"The Company is exposed to fluctuations in foreign currency exchange rates, interest rates, equity prices, liquidity and credit risk.",risks,neutral,0.741322994
+TATAMOTORS_2022,The Company faces claims and assertions by various parties which may result in potential losses.,risks,negative,0.952591658
+TATAMOTORS_2023,"The Tata Motors Group is a leading global automobile manufacturer, offering an extensive portfolio of smart, integrated, and e-mobility solutions.",positive,positive,0.529787302
+TATAMOTORS_2023,The business recorded strong financial performance as all three core auto businesses turned profitable in H2.,positive,positive,0.955370069
+TATAMOTORS_2023,"Tata Motors is on a journey to make the future of mobility safer, smarter, and greener.",positive,positive,0.745228767
+TATAMOTORS_2023,The company achieved a 24.2% increase in group revenue.,positive,positive,0.954734027
+TATAMOTORS_2023,"Tata Motors has stayed ahead of the competition by offering multiple green fuel options powered by CNG, electric, and hydrogen.",positive,neutral,0.541371286
+TATAMOTORS_2023,We have a healthier gender diversity with 8.79% of our workforce comprising of women employees.,positive,positive,0.537312388
+TATAMOTORS_2023,"A high impact launch, followed by consistent and conscious efforts to accelerate the Culture Transformation journey with active employee participation has resulted in improvement in overall employee engagement scores.",positive,positive,0.955431461
+TATAMOTORS_2023,Tata Motors measures the success of its diversity and inclusion initiatives via different parameters.,positive,neutral,0.871880233
+TATAMOTORS_2023,"Jaguar Land Rover has become a significant part of our business, accounting for 65.8% of our total revenues in FY 2022-23.",positive,neutral,0.714022875
+TATAMOTORS_2023,"The finance bill of FY 2023-24 has given reduction in customs duty on machinery and capital goods, used to produce lithium-ion batteries for EVs.",positive,neutral,0.864156663
+TATAMOTORS_2023,The Company provides financing for vehicles sold by dealers in India.,positive,neutral,0.917059362
+TATAMOTORS_2023,The expected wholesale volumes under all scenarios are higher than under the reverse stress test.,positive,positive,0.951190054
+TATAMOTORS_2023,The Company has committed towards leases of Plant Machinery and Equipments.,positive,positive,0.703036547
+TATAMOTORS_2023,"The company faced challenges with a PAT of I2,728 crore, reflecting a robust performance for the third year in succession.",negative,negative,0.503157914
+TATAMOTORS_2023,The rise in interest rates and inflationary expectations have posed challenges to the business.,negative,negative,0.943911314
+TATAMOTORS_2023,"The company recorded a loss before tax of GBP 64 million in FY 2022-23, an improvement compared to the GBP 412 million loss in FY 2021-22.",negative,positive,0.578227043
+TATAMOTORS_2023,Jaguar Land Rover's EBIT margin decreased from 5.2% to 5.0%.,negative,negative,0.970771253
+TATAMOTORS_2023,The ongoing shortage of semiconductors that are crucial to our products may prolong or worsen.,negative,negative,0.942650795
+TATAMOTORS_2023,We can still say challenges within our supply chain in sourcing parts or face significant price increases in the future.,negative,negative,0.542502403
+TATAMOTORS_2023,Adverse economic conditions and declines in vehicle sales rates could have a material adverse impact on our business.,negative,negative,0.929234207
+TATAMOTORS_2023,"The global automotive industry, including the luxury segment, is facing increasing competition which could adversely affect our market leadership position.",negative,negative,0.919456482
+TATAMOTORS_2023,The conflict between Russia and Ukraine could have a material adverse impact on our business.,negative,negative,0.86637485
+TATAMOTORS_2023,The Company recorded inventory write-down expense of 723.20 crores.,negative,negative,0.964981675
+TATAMOTORS_2023,"The Company has no material associates as at March 31, 2023.",negative,neutral,0.944925249
+TATAMOTORS_2023,The carrying amount of goodwill has been allocated to CGU as follows.,negative,neutral,0.93121177
+TATAMOTORS_2023,Jaguar Land Rover aims to achieve net zero carbon emissions by 2039.,forward_looking,positive,0.690227032
+TATAMOTORS_2023,"The company expects overall growth to remain high in FY 2023-24, but with industry growth moderating.",forward_looking,positive,0.948588252
+TATAMOTORS_2023,The EV contribution in the portfolio is likely to increase to 25% in 5 years and reach 50% by 2030.,forward_looking,positive,0.916642189
+TATAMOTORS_2023,"We expect our businesses to largely remain self-sustaining, and we aim to fund total product and other investment spending primarily with cash flows from operating activities supported by debt capital markets activities and bank funding, as required.",forward_looking,positive,0.745211601
+TATAMOTORS_2023,"We expect to invest around `38,000 crores in property, plants and equipment in FY 2023-24.",forward_looking,neutral,0.771036208
+TATAMOTORS_2023,We aim to launch Jaguar as a pure electric brand from 2025 by introducing the first Land Rover all electric model by 2024.,forward_looking,neutral,0.617232919
+TATAMOTORS_2023,The Company expects to continue on its growth trajectory and sustain its leadership position.,forward_looking,positive,0.94422698
+TATAMOTORS_2023,"The expected net periodic pension cost for the year ending March 31, 2024 is expected to be 376.09 crores.",forward_looking,neutral,0.927099109
+TATAMOTORS_2023,The Company anticipates that the hedged sales will take place over the next one to five years.,forward_looking,neutral,0.878491044
+TATAMOTORS_2023,"The company is exposed to IT risks, including potential cyber-attacks that could disrupt business operations.",risks,negative,0.77430743
+TATAMOTORS_2023,Supply chain disruptions and commodity inflation could adversely affect production volume and profitability.,risks,negative,0.925299227
+TATAMOTORS_2023,The ongoing geopolitical tensions and inflationary pressures may impact the company's financial performance.,risks,negative,0.926089048
+TATAMOTORS_2023,The ongoing shortage of semiconductors may materially affect our production levels.,risks,negative,0.948467076
+TATAMOTORS_2023,"Disruptions to our supply chains and shortages of essential raw materials, parts and components may adversely affect our production and results of operations.",risks,negative,0.951645792
+TATAMOTORS_2023,We are vulnerable to shifts in global trade and economic policies and outlook.,risks,negative,0.89372313
+TATAMOTORS_2023,The availability of funding may decrease in the future or we may see increases in the cost of credit.,risks,negative,0.858817458
+TATAMOTORS_2023,The Company is subject to risks associated with legal proceedings and governmental investigations.,risks,neutral,0.845456123
+TATAMOTORS_2023,The assessment of impairment is based on forecasts of future cashflows which are inherently uncertain.,risks,neutral,0.863521755
+TATAMOTORS_2023,"The Company is exposed primarily to fluctuations in foreign currency exchange rates, interest rates, equity prices, liquidity and credit risk.",risks,neutral,0.849948466
+TATAMOTORS_2023,The Company evaluates the impact of foreign exchange rate fluctuations by assessing its exposure to exchange rate risks.,risks,neutral,0.893518984
+TCS_2022,"The company generated consolidated revenues of US $25.7 billion, experiencing strong growth of 15.9%.",positive,positive,0.936061859
+TCS_2022,"TCS has a cash conversion ratio of 104.2% and free cash flow of ₹36,985 crore.",positive,neutral,0.923567474
+TCS_2022,"The company successfully completed its fourth buyback, amounting to over 102.8% of the free cash flow.",positive,positive,0.922854483
+TCS_2022,TCS ranked #1 in Customer Satisfaction in the UK for the ninth consecutive year.,positive,positive,0.941254854
+TCS_2022,"The company has crossed a key diversity milestone with women in the workforce exceeding 200,000.",positive,positive,0.928634584
+TCS_2022,"TCS’ attrition in IT services was 17.4% in FY 2022, indicating a sharp rise in employee turnover across the industry.",negative,positive,0.821554244
+TCS_2022,The supply chain upheavals during the past couple of years are driving a shift towards rebalancing and resilience.,negative,positive,0.484019071
+TCS_2022,The geo-political tensions in Europe and the resultant impact on global economic growth are real threats.,negative,negative,0.507885456
+TCS_2022,"The company aims to deepen customer relationships, expand its addressable market, and gain market share in the years ahead.",forward_looking,positive,0.917425632
+TCS_2022,"TCS expects technology spending to continue growing, with a focus on cloud migration and digital workplace initiatives.",forward_looking,positive,0.926816106
+TCS_2022,"The company is confident of being able to sustain a certain base case growth, with room to maximize in better years.",forward_looking,positive,0.948271394
+TCS_2022,"The change in technology consumption reflects the prevailing trends in the economy, which may impact business operations.",risks,neutral,0.633262873
+TCS_2022,The COVID-19 pandemic continues to pose risks to business continuity and employee health.,risks,negative,0.952005744
+TCS_2022,The company faces risks related to volatile global economic scenarios and potential reductions in client spending.,risks,negative,0.90727061
+TCS_2023,"In FY 2023, the company delivered revenue of ₹225,458 crore, a growth of 17.6%.",positive,positive,0.943810523
+TCS_2023,The company has an industry-leading operating margin of 24.1%.,positive,positive,0.711463451
+TCS_2023,"TCS has over 614,000 associates with 35.7% women associates.",positive,neutral,0.937898993
+TCS_2023,The company is significantly investing in building AI capabilities which include products and platforms that are AI-powered.,positive,positive,0.567350388
+TCS_2023,TCS was named to FORTUNE® magazine’s list of the World’s Most Admired Companies.,positive,positive,0.758061469
+TCS_2023,"TCS topped the list of 23 IT service providers ranked on customer satisfaction, scoring 83%.",positive,positive,0.935190976
+TCS_2023,"Geopolitical factors such as the conflict between Russia and Ukraine, rising inflation, and volatile commodity prices have impacted the business environment.",negative,negative,0.943182528
+TCS_2023,The company faced a high attrition rate of 20.1% in FY 2023.,negative,negative,0.949396551
+TCS_2023,The company experienced a decline in net margin to 18.7%.,negative,negative,0.970891893
+TCS_2023,The company aims to achieve net zero emissions by 2030.,forward_looking,positive,0.750686944
+TCS_2023,TCS expects to see further growth in cloud transformation revenues.,forward_looking,positive,0.949097753
+TCS_2023,The strong pipeline replenishment gives good visibility for the medium term.,forward_looking,positive,0.929030836
+TCS_2023,Volatile global political and economic conditions can affect demand for the company's services.,risks,negative,0.918041945
+TCS_2023,Talent scarcity can lead to poaching of employees and impact revenue growth.,risks,negative,0.962368906
+TCS_2023,Cybersecurity risks and compliance with regulations pose significant challenges.,risks,negative,0.587824583
+TRENT_2021,The consolidated performance of the Company and its subsidiaries has shown resilience during the pandemic.,positive,positive,0.952671945
+TRENT_2021,"The Company has successfully launched Westside.com, expanding its online shopping capabilities.",positive,positive,0.936459541
+TRENT_2021,The Company is confident in its ability to weather the ongoing crisis and rebound strongly.,positive,positive,0.950078726
+TRENT_2021,The Company has a commitment to community development and has spent ₹ 319.65 Lakhs towards CSR projects.,positive,positive,0.734139562
+TRENT_2021,The Company reported a loss after tax of ₹ 51.02 Crores for the financial year.,negative,negative,0.939438522
+TRENT_2021,The total comprehensive loss for the year was ₹ 25.90 Crores.,negative,negative,0.958801031
+TRENT_2021,"The Company faced significant disruptions due to the pandemic, impacting sales performance.",negative,negative,0.96965754
+TRENT_2021,"The Company expects customer demand to rebound strongly, possibly starting in the second quarter.",forward_looking,positive,0.953435183
+TRENT_2021,The Company plans to continue scaling up its presence with a focus on sustainable profitability.,forward_looking,positive,0.878325462
+TRENT_2021,The Company envisions a gradual return to normalcy over the next few years.,forward_looking,positive,0.863587916
+TRENT_2021,The Company acknowledges the risks associated with changes in consumer expectations and competition.,risks,neutral,0.70394361
+TRENT_2021,Regulatory risks related to changes in tax laws and compliance requirements could impact operations.,risks,negative,0.885194182
+TRENT_2021,The Company is exposed to liquidity risks and is actively managing its cash flow to mitigate potential impacts.,risks,positive,0.870460451
+TRENT_2022,Operating profitability strongly recovered as compared to the last year despite the pandemic.,positive,positive,0.951444685
+TRENT_2022,The Company has not issued any shares with differential voting rights.,positive,neutral,0.954977572
+TRENT_2022,The Board of Directors have recommended a final dividend @ 110% i.e. ` 1.10/- per Equity Share.,positive,neutral,0.902747154
+TRENT_2022,The total dividend @ 170% on Equity Shares for FY 2021-22 would involve a total cash outflow of ` 60.43 Crores.,positive,neutral,0.940139592
+TRENT_2022,The Company has laid down procedures to inform the Audit Committee as well as the Board of Directors regarding loans and investments.,positive,neutral,0.917821467
+TRENT_2022,The Company reported a total comprehensive loss of ` 135.37 Crores.,negative,negative,0.849593818
+TRENT_2022,The interim dividend payment involved a cash outflow of ` 39.10 Crores.,negative,neutral,0.913699627
+TRENT_2022,The Company incurred a total comprehensive loss of ` 19.29 Crores for the period under review.,negative,negative,0.947343171
+TRENT_2022,The Company has not issued employee stock options nor sweat equity shares.,negative,neutral,0.933558524
+TRENT_2022,The Company has not accepted any deposits or amounts which are deemed to be deposits.,negative,neutral,0.881814599
+TRENT_2022,The Company plans to extend its initiative to support 50 students by 2027.,forward_looking,positive,0.880829215
+TRENT_2022,The merger shall also result in simplification of the group structure.,forward_looking,neutral,0.763482153
+TRENT_2022,The Company expects strong growth opportunities and aims to accelerate the differentiation of its propositions.,forward_looking,positive,0.91981703
+TRENT_2022,The Company is exposed to credit risk from its operating activities and from its financing activities.,risks,neutral,0.769371986
+TRENT_2022,The Company evaluates exchange rate exposure arising from foreign currency transactions.,risks,neutral,0.943151712
+TRENT_2022,The Company is exposed to interest rate risk with respect to returns realised.,risks,neutral,0.885717273
+TRENT_2022,The Company has significant influence in an entity by holding more than 20% of voting rights.,risks,neutral,0.880589366
+TRENT_2023,The consolidated performance of the Company and its subsidiaries has shown significant growth.,positive,positive,0.952547967
+TRENT_2023,Revenue increased by 32% CAGR over the past financial years.,positive,positive,0.94961828
+TRENT_2023,"Profit after tax grew by 45% CAGR, reflecting strong financial health.",positive,positive,0.959334195
+TRENT_2023,The Company has a strong market presence with nearly 100% servicing of online orders from stores.,positive,positive,0.76161623
+TRENT_2023,The Westside brand registered a 49% like-for-like growth in sales in FY23.,positive,positive,0.949381828
+TRENT_2023,The Company faced an adverse impact of `104 Crore due to the adoption of IndAS 116 accounting standard.,negative,negative,0.953219056
+TRENT_2023,The total comprehensive loss for the year was `44 Crore.,negative,negative,0.943275154
+TRENT_2023,There were instances of significant legal disputes regarding service tax on renting of immovable property.,negative,negative,0.832502484
+TRENT_2023,The Company aims to accelerate growth by addressing market opportunities and enhancing product propositions.,forward_looking,positive,0.928672969
+TRENT_2023,Future strategies include improving efficiencies in the supply chain and reducing emissions per garment shipped.,forward_looking,positive,0.818963408
+TRENT_2023,"The Company faces risks related to cybersecurity and data privacy, which could lead to reputational damage.",risks,negative,0.919866264
+TRENT_2023,There are scalability risks due to limited availability of quality real estate and high rentals.,risks,negative,0.914280355
+TRENT_2023,The Company is exposed to foreign currency risk through purchases from overseas parties.,risks,neutral,0.911739886
