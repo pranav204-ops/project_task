@@ -1,0 +1,14 @@
+company,statement,category,sentiment,confidence
+TRENT_2021,The consolidated performance of the Company and its subsidiaries has shown resilience during the pandemic.,positive,positive,0.9526719450950623
+TRENT_2021,"The Company has successfully launched Westside.com, expanding its online shopping capabilities.",positive,positive,0.9364595413208008
+TRENT_2021,The Company is confident in its ability to weather the ongoing crisis and rebound strongly.,positive,positive,0.9500787258148193
+TRENT_2021,The Company has a commitment to community development and has spent ₹ 319.65 Lakhs towards CSR projects.,positive,positive,0.7341395616531372
+TRENT_2021,The Company reported a loss after tax of ₹ 51.02 Crores for the financial year.,negative,negative,0.93943852186203
+TRENT_2021,The total comprehensive loss for the year was ₹ 25.90 Crores.,negative,negative,0.9588010311126709
+TRENT_2021,"The Company faced significant disruptions due to the pandemic, impacting sales performance.",negative,negative,0.9696575403213501
+TRENT_2021,"The Company expects customer demand to rebound strongly, possibly starting in the second quarter.",forward_looking,positive,0.9534351825714111
+TRENT_2021,The Company plans to continue scaling up its presence with a focus on sustainable profitability.,forward_looking,positive,0.8783254623413086
+TRENT_2021,The Company envisions a gradual return to normalcy over the next few years.,forward_looking,positive,0.8635879158973694
+TRENT_2021,The Company acknowledges the risks associated with changes in consumer expectations and competition.,risks,neutral,0.7039436101913452
+TRENT_2021,Regulatory risks related to changes in tax laws and compliance requirements could impact operations.,risks,negative,0.8851941823959351
+TRENT_2021,The Company is exposed to liquidity risks and is actively managing its cash flow to mitigate potential impacts.,risks,positive,0.8704604506492615

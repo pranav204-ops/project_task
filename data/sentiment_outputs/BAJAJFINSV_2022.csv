@@ -1,0 +1,31 @@
+company,statement,category,sentiment,confidence
+BAJAJFINSV_2022,The Company declared a dividend of ₹ 4 per equity share for FY2022.,positive,neutral,0.9096566438674927
+BAJAJFINSV_2022,Bajaj Finserv continues to be one of the most efficient users of capital among private sector insurance companies.,positive,positive,0.820277750492096
+BAJAJFINSV_2022,"In FY2022, BHFL earned total income of ₹ 3,767 crore and profit after tax of ₹ 710 crore.",positive,neutral,0.9160862565040588
+BAJAJFINSV_2022,The Board of Directors has recommended a dividend of ₹ 4 per equity share for FY2022 for the approval of members.,positive,neutral,0.8698058724403381
+BAJAJFINSV_2022,"BFL continues to be the dominant lender for consumer electronics, financing 12.7 million purchases in FY2022.",positive,positive,0.7224529981613159
+BAJAJFINSV_2022,"BFL's assets under management increased by 29% to ₹ 197,452 crore.",positive,positive,0.9535245895385742
+BAJAJFINSV_2022,BFS Group strives to influence its value chain partners to participate in responsible and sustainable business conduct.,positive,positive,0.6910196542739868
+BAJAJFINSV_2022,"The Group has trained about 17,800 Debt Recovery Agents.",positive,neutral,0.7879185676574707
+BAJAJFINSV_2022,BFS and its subsidiaries have zero tolerance towards unethical business practices.,positive,neutral,0.8958253264427185
+BAJAJFINSV_2022,The Group has invested `1.14 crore for rooftop solar plant installations at certain offices during the year.,positive,positive,0.5014848113059998
+BAJAJFINSV_2022,Corporate offices of the Group companies have ramps for easy movement and wheelchair accessible restrooms for specially abled people.,positive,neutral,0.9170163869857788
+BAJAJFINSV_2022,BFS Group trains its employees on safety protocols by conducting periodic trainings on fire safety and evacuation drills.,positive,neutral,0.9249284267425537
+BAJAJFINSV_2022,All Group companies extend various support and compensatory packages in the event of death of permanent employees.,positive,neutral,0.937620222568512
+BAJAJFINSV_2022,"The Group has received green, disposable and recycling certificates from the respective e-waste handlers.",positive,positive,0.8433996438980103
+BAJAJFINSV_2022,"The Company faced challenges due to the Covid-19 pandemic, which impacted its operations.",negative,negative,0.9527892470359802
+BAJAJFINSV_2022,The second wave of the pandemic had an adverse impact on loan losses in the SME segment.,negative,negative,0.9454007744789124
+BAJAJFINSV_2022,The general insurance industry faced a difficult environment amid the resurgence of the Covid pandemic.,negative,negative,0.9520060420036316
+BAJAJFINSV_2022,No corrective actions pertaining to above mentioned parameters was necessitated by the Group during the year under review.,negative,neutral,0.9174221158027649
+BAJAJFINSV_2022,"Given the nature of the business, BFS Group companies do not currently maintain records for hazardous and other waste generation.",negative,neutral,0.9391868114471436
+BAJAJFINSV_2022,No corrective actions pertaining to Question 9 was necessitated by the Group during the year under review.,negative,neutral,0.8451895117759705
+BAJAJFINSV_2022,No corrective actions pertaining to Question 4 was necessitated by the Group during the year under review.,negative,neutral,0.8534175157546997
+BAJAJFINSV_2022,The Company plans to open another 50 financial inclusion branches in FY2023.,forward_looking,neutral,0.511175811290741
+BAJAJFINSV_2022,BFL aims to maintain a liquidity coverage ratio of 70% from 1 December 2022.,forward_looking,positive,0.7861512303352356
+BAJAJFINSV_2022,The Group believes that it is still learning the evolving aspects of ESG and lays significant importance to such interactions.,forward_looking,positive,0.7043188810348511
+BAJAJFINSV_2022,The Group further endeavours to expand the coverage of assessments by external agencies to more organisations in the coming years.,forward_looking,positive,0.8789646029472351
+BAJAJFINSV_2022,The Company is exposed to market risks including interest rate fluctuations and foreign exchange risks.,risks,neutral,0.8702319860458374
+BAJAJFINSV_2022,"Credit risk arises from the potential default of borrowers, which is monitored through various metrics.",risks,neutral,0.9357908368110657
+BAJAJFINSV_2022,"Operational risks include system failures and fraud, which are managed through internal controls and audits.",risks,negative,0.5858980417251587
+BAJAJFINSV_2022,The applicable processes have been briefly described in ‘a’ above.,risks,neutral,0.9462006688117981
+BAJAJFINSV_2022,"During the year, no such instances have been noted which necessitated further action.",risks,neutral,0.5688601136207581

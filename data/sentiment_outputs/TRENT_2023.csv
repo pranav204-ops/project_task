@@ -1,0 +1,14 @@
+company,statement,category,sentiment,confidence
+TRENT_2023,The consolidated performance of the Company and its subsidiaries has shown significant growth.,positive,positive,0.9525479674339294
+TRENT_2023,Revenue increased by 32% CAGR over the past financial years.,positive,positive,0.9496182799339294
+TRENT_2023,"Profit after tax grew by 45% CAGR, reflecting strong financial health.",positive,positive,0.9593341946601868
+TRENT_2023,The Company has a strong market presence with nearly 100% servicing of online orders from stores.,positive,positive,0.7616162300109863
+TRENT_2023,The Westside brand registered a 49% like-for-like growth in sales in FY23.,positive,positive,0.9493818283081055
+TRENT_2023,The Company faced an adverse impact of `104 Crore due to the adoption of IndAS 116 accounting standard.,negative,negative,0.9532190561294556
+TRENT_2023,The total comprehensive loss for the year was `44 Crore.,negative,negative,0.9432751536369324
+TRENT_2023,There were instances of significant legal disputes regarding service tax on renting of immovable property.,negative,negative,0.8325024843215942
+TRENT_2023,The Company aims to accelerate growth by addressing market opportunities and enhancing product propositions.,forward_looking,positive,0.9286729693412781
+TRENT_2023,Future strategies include improving efficiencies in the supply chain and reducing emissions per garment shipped.,forward_looking,positive,0.8189634084701538
+TRENT_2023,"The Company faces risks related to cybersecurity and data privacy, which could lead to reputational damage.",risks,negative,0.9198662638664246
+TRENT_2023,There are scalability risks due to limited availability of quality real estate and high rentals.,risks,negative,0.914280354976654
+TRENT_2023,The Company is exposed to foreign currency risk through purchases from overseas parties.,risks,neutral,0.9117398858070374

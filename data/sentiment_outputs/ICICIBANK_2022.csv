@@ -1,0 +1,28 @@
+company,statement,category,sentiment,confidence
+ICICIBANK_2022,The Indian economy saw a strong recovery and progress towards normalcy.,positive,positive,0.9521481394767761
+ICICIBANK_2022,"The Bank's mobile applications have become universal and open architecture, enabling expansion of services.",positive,positive,0.7105626463890076
+ICICIBANK_2022,Core operating profit increased by 22.3% on a year-on-year basis.,positive,positive,0.9591243267059326
+ICICIBANK_2022,"The Bank's net non-performing assets decreased from 1.14% at March 31, 2021 to 0.76% at March 31, 2022.",positive,negative,0.9692513942718506
+ICICIBANK_2022,The Bank's total capital adequacy ratio was 19.16% as against the requirement of 11.70%.,positive,neutral,0.8186646699905396
+ICICIBANK_2022,"The Bank reported a revaluation gain amounting to ` 1,724.9 million on account of revaluation carried out.",positive,positive,0.6932398080825806
+ICICIBANK_2022,"Total fixed assets increased to ` 93,738,159 from ` 88,775,806.",positive,positive,0.949600100517273
+ICICIBANK_2022,"Interest earned increased to ` 954,068,654 from ` 891,626,638.",positive,positive,0.9536189436912537
+ICICIBANK_2022,"Net profit after minority interest increased to ` 251,100,960 from ` 183,843,186.",positive,positive,0.9548285603523254
+ICICIBANK_2022,"The average liquidity coverage ratio of the Bank for the three months ended March 31, 2022 was 131.09%.",positive,neutral,0.9349212646484375
+ICICIBANK_2022,The year ended with challenges of high energy prices and inflation.,negative,negative,0.9325290322303772
+ICICIBANK_2022,The Bank's provisions and contingencies increased from 2021 to 2022.,negative,positive,0.8934017419815063
+ICICIBANK_2022,"The Bank's net impairment ratio decreased from 2.2% at March 31, 2021 to 2.0% at March 31, 2022.",negative,negative,0.9653856754302979
+ICICIBANK_2022,"The Bank's total other assets decreased to ` 713,988,010 from ` 869,447,777.",negative,negative,0.9643976092338562
+ICICIBANK_2022,"Total provisions and contingencies increased to ` 159,108.2 million from ` 202,044.4 million.",negative,positive,0.9512750506401062
+ICICIBANK_2022,"The Bank's operating expenses increased to ` 731,517,275 from ` 762,716,696.",negative,positive,0.9535924792289734
+ICICIBANK_2022,"The Bank's total contingent liabilities increased to ` 45,523,411,167 from ` 30,213,442,288.",negative,positive,0.9453697204589844
+ICICIBANK_2022,"The Bank's deferred tax assets decreased to ` 79,484,847 from ` 93,350,216.",negative,negative,0.9629637002944946
+ICICIBANK_2022,The Bank aims to grow its risk-calibrated core operating profit by conducting business within well-defined risk tolerance levels.,forward_looking,positive,0.9226741194725037
+ICICIBANK_2022,The Bank will continue to maintain a strong risk and capital management strategy while pursuing growth opportunities.,forward_looking,positive,0.8638522028923035
+ICICIBANK_2022,The future trajectory of the pandemic may have an impact on the results of the Bank and the Group.,forward_looking,neutral,0.6427188515663147
+ICICIBANK_2022,The Bank will need to incorporate regulatory guidelines and clarifications in some critical areas of Ind AS application.,forward_looking,neutral,0.8519794344902039
+ICICIBANK_2022,"The Bank is exposed to various risks, including credit risk, market risk, liquidity risk, operational risk, technology risk, and compliance risk.",risks,neutral,0.8862232565879822
+ICICIBANK_2022,The ongoing geopolitical tensions and inflationary pressures could impact the Bank's performance.,risks,negative,0.9496649503707886
+ICICIBANK_2022,The Bank's liquidity management is subject to regulatory requirements and market conditions.,risks,neutral,0.9427810907363892
+ICICIBANK_2022,The Bank faces risks related to changes in market interest rates and currency rates.,risks,negative,0.7793781757354736
+ICICIBANK_2022,The Bank's exposure to sensitive sectors may impact its financial performance.,risks,negative,0.878578245639801

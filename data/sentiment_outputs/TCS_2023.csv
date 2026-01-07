@@ -1,0 +1,16 @@
+company,statement,category,sentiment,confidence
+TCS_2023,"In FY 2023, the company delivered revenue of ₹225,458 crore, a growth of 17.6%.",positive,positive,0.9438105225563049
+TCS_2023,The company has an industry-leading operating margin of 24.1%.,positive,positive,0.711463451385498
+TCS_2023,"TCS has over 614,000 associates with 35.7% women associates.",positive,neutral,0.9378989934921265
+TCS_2023,The company is significantly investing in building AI capabilities which include products and platforms that are AI-powered.,positive,positive,0.5673503875732422
+TCS_2023,TCS was named to FORTUNE® magazine’s list of the World’s Most Admired Companies.,positive,positive,0.7580614686012268
+TCS_2023,"TCS topped the list of 23 IT service providers ranked on customer satisfaction, scoring 83%.",positive,positive,0.9351909756660461
+TCS_2023,"Geopolitical factors such as the conflict between Russia and Ukraine, rising inflation, and volatile commodity prices have impacted the business environment.",negative,negative,0.9431825280189514
+TCS_2023,The company faced a high attrition rate of 20.1% in FY 2023.,negative,negative,0.949396550655365
+TCS_2023,The company experienced a decline in net margin to 18.7%.,negative,negative,0.9708918929100037
+TCS_2023,The company aims to achieve net zero emissions by 2030.,forward_looking,positive,0.7506869435310364
+TCS_2023,TCS expects to see further growth in cloud transformation revenues.,forward_looking,positive,0.949097752571106
+TCS_2023,The strong pipeline replenishment gives good visibility for the medium term.,forward_looking,positive,0.9290308356285095
+TCS_2023,Volatile global political and economic conditions can affect demand for the company's services.,risks,negative,0.9180419445037842
+TCS_2023,Talent scarcity can lead to poaching of employees and impact revenue growth.,risks,negative,0.962368905544281
+TCS_2023,Cybersecurity risks and compliance with regulations pose significant challenges.,risks,negative,0.5878245830535889

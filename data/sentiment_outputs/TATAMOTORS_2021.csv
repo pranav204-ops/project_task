@@ -1,0 +1,36 @@
+company,statement,category,sentiment,confidence
+TATAMOTORS_2021,FY 21 ended on a strong note with EBITDA margins of 12.2% and EBIT margins of 2.6%.,positive,positive,0.9533026814460754
+TATAMOTORS_2021,"Tata Motors recorded its highest ever annual sales in 8 years, growing its market share to 8.2%.",positive,positive,0.9506714344024658
+TATAMOTORS_2021,"Jaguar Land Rover achieved double-digit sales growth in China, contributing to strong performance.",positive,positive,0.9570637345314026
+TATAMOTORS_2021,"The launch of Tata Intra, Yodha BS VI, and Ace Petrol are steps towards recovery.",positive,positive,0.9211363196372986
+TATAMOTORS_2021,The company has a strong focus on sustainability and aims to achieve net zero carbon emissions by 2039.,positive,positive,0.7631999254226685
+TATAMOTORS_2021,"The Company enhanced its market share to 8.1% for the year ended March 31, 2021, compared to 4.8% for the previous year.",positive,positive,0.9568845629692078
+TATAMOTORS_2021,The Company recorded its highest ever annual sales in the Passenger Vehicle business.,positive,positive,0.9428239464759827
+TATAMOTORS_2021,The Company achieved a successful transition to BSVI standards despite several headwinds.,positive,positive,0.9473678469657898
+TATAMOTORS_2021,The Company improved its Industry leading score in customer satisfaction metrics significantly.,positive,positive,0.9601240754127502
+TATAMOTORS_2021,The Company has ongoing significant profitability.,positive,positive,0.9512720704078674
+TATAMOTORS_2021,The Board believes that linking employee performance with other initiatives will assist in improving the financials of the Company.,positive,positive,0.9338675141334534
+TATAMOTORS_2021,FY 21 was an extremely challenging year with severe business disruptions due to the COVID-19 pandemic.,negative,negative,0.9651548862457275
+TATAMOTORS_2021,Jaguar Land Rover experienced a 14% drop in revenue to £19.7 billion.,negative,negative,0.9750354290008545
+TATAMOTORS_2021,"The pandemic resulted in muted consumer demand, impacting overall sales.",negative,negative,0.9712968468666077
+TATAMOTORS_2021,"The company reported a net loss of ₹13,451 crores in FY 2020-21.",negative,negative,0.8624827265739441
+TATAMOTORS_2021,"The automotive industry faced significant challenges, including supply chain disruptions and rising costs.",negative,negative,0.9568687677383423
+TATAMOTORS_2021,"The Company reported a loss of `13,451.39 crores for the year ended March 31, 2021.",negative,negative,0.8917903304100037
+TATAMOTORS_2021,"The Company faced significant challenges due to the COVID-19 pandemic, impacting operations and financial results.",negative,negative,0.9663566946983337
+TATAMOTORS_2021,"The Company recorded an exceptional charge of `14,994.30 crores under Jaguar Land Rover’s Reimagine strategy.",negative,positive,0.6304875612258911
+TATAMOTORS_2021,The Company has incurred a loss as computed under Section 198 of the Act.,negative,negative,0.9517666697502136
+TATAMOTORS_2021,No commission would be payable to the Non-Executive Directors for FY 2020-21.,negative,neutral,0.95185786485672
+TATAMOTORS_2021,"By FY 24, Tata Motors aims to become the most aspirational Indian auto brand.",forward_looking,positive,0.8651676774024963
+TATAMOTORS_2021,Jaguar Land Rover plans to launch its first all-electric model by 2024 and aims for a fully electric fleet by 2030.,forward_looking,neutral,0.5408505201339722
+TATAMOTORS_2021,The company anticipates gradual improvement in performance as the impact of the pandemic recedes.,forward_looking,positive,0.953066885471344
+TATAMOTORS_2021,"The Company expects to contribute `100.94 crores to the funded pension plans during the year ending March 31, 2022.",forward_looking,positive,0.6001356244087219
+TATAMOTORS_2021,The Company anticipates a smooth transition to electrification and alternate fuel options for a sustainable future.,forward_looking,positive,0.9029991030693054
+TATAMOTORS_2021,The Company will undertake projects/establishments in and outside India.,forward_looking,neutral,0.8728036880493164
+TATAMOTORS_2021,"The company faces risks related to the ongoing COVID-19 pandemic, which could adversely affect its business.",risks,negative,0.8509966731071472
+TATAMOTORS_2021,Deterioration in global economic conditions could impact sales and results of operations.,risks,negative,0.9317522048950195
+TATAMOTORS_2021,Intensifying competition in the automotive industry may adversely affect market share and profitability.,risks,negative,0.9222791194915771
+TATAMOTORS_2021,"Supply chain disruptions, particularly in semiconductor availability, pose significant risks to production.",risks,negative,0.952515184879303
+TATAMOTORS_2021,"The Company is exposed to fluctuations in foreign currency exchange rates, interest rates, equity prices, liquidity, and credit risk.",risks,neutral,0.7201510667800903
+TATAMOTORS_2021,The Company faces legal proceedings and claims that may adversely affect its financial condition.,risks,negative,0.9247642755508423
+TATAMOTORS_2021,"The Company has contingent liabilities amounting to `1,421.98 crores related to sales tax demands being contested.",risks,negative,0.759565532207489
+TATAMOTORS_2021,The remuneration is linked to the performance matrices which may pose risks if not achieved.,risks,neutral,0.8061517477035522

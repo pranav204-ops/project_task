@@ -1,0 +1,51 @@
+company,statement,category,sentiment,confidence
+TATAMOTORS_2022,Tata Motors is among the world’s leading manufacturers of ready automobiles.,positive,positive,0.54188072681427
+TATAMOTORS_2022,"The Passenger Vehicles segment grew volumes by 67%, achieving the highest ever domestic annual sales of 3,70,354 units in FY22.",positive,positive,0.9567298293113708
+TATAMOTORS_2022,Tata Motors has taken a giant leap forward in connecting the aspirations of its stakeholders by defining the future of mobility.,positive,positive,0.8170276284217834
+TATAMOTORS_2022,The Company is pioneering India’s Electric Vehicle transition and enjoys considerable advantage in one of the fastest growing automotive markets in the world.,positive,positive,0.9042229056358337
+TATAMOTORS_2022,Tata Motors has outlined its sustainability strategy and a clear roadmap of migration towards green mobility Net Zero.,positive,positive,0.884670078754425
+TATAMOTORS_2022,The Company has maintained high standards of corporate governance and public disclosure.,positive,neutral,0.8138973712921143
+TATAMOTORS_2022,The Board of Directors is committed to providing strategic direction and leadership.,positive,neutral,0.5373286008834839
+TATAMOTORS_2022,The Company has successfully complied with all applicable laws and regulations to date.,positive,positive,0.875738799571991
+TATAMOTORS_2022,The Company has a robust IT-enabled compliance management system for tracking and managing compliance.,positive,positive,0.7530447244644165
+TATAMOTORS_2022,The Company has received all necessary regulatory approvals for its operations.,positive,positive,0.8771292567253113
+TATAMOTORS_2022,The Company has reversed the initially recognised impairment for this CGU.,positive,positive,0.5148766040802002
+TATAMOTORS_2022,"The Company has enhanced its market share to 8.1% for the year ended March 31, 2021 as compared to 4.8% for the year ended March 31, 2020.",positive,positive,0.9545020461082458
+TATAMOTORS_2022,The fair value of the CGU is significantly higher than its carrying value.,positive,positive,0.620580792427063
+TATAMOTORS_2022,"Despite the margins being impacted by supply chain issues and runaway commodity inflation, our India business remains in good health.",negative,positive,0.948610782623291
+TATAMOTORS_2022,"Revenue fell 7% to £18.3 billion, whilst the Company's free cash flow was negative at £1.16 billion for FY22.",negative,negative,0.9753245115280151
+TATAMOTORS_2022,Jaguar Land Rover's revenue fell by 16% in FY22 on account of supply chain issues.,negative,negative,0.9756268262863159
+TATAMOTORS_2022,"The Company reported a loss of ₹11,308.76 crore for the year, compared to a loss of ₹13,395.10 crore in the previous year.",negative,negative,0.9588323831558228
+TATAMOTORS_2022,The ongoing global semiconductor shortage has significantly impacted production schedules.,negative,negative,0.9704978466033936
+TATAMOTORS_2022,The Company experienced significant losses in the financial year.,negative,negative,0.9685059785842896
+TATAMOTORS_2022,There are risks associated with instability in the market and significant currency fluctuations.,negative,negative,0.48075535893440247
+TATAMOTORS_2022,The Company may face adverse effects on trading agreements due to changes in government policies.,negative,negative,0.9439736008644104
+TATAMOTORS_2022,The Company has been subject to investigations regarding anti-competitive practices.,negative,negative,0.8590859174728394
+TATAMOTORS_2022,The Company has faced challenges related to compliance with new regulatory requirements.,negative,negative,0.9185374975204468
+TATAMOTORS_2022,"The Company recorded a net loss of 11,441.47 crores for the year ended March 31, 2022.",negative,negative,0.8493459820747375
+TATAMOTORS_2022,"The Company made a provision for estimated supplier claims of 114.00 crores, which were under negotiations with suppliers.",negative,neutral,0.4791117310523987
+TATAMOTORS_2022,"The Company recorded inventory write-down expense of 125.34 crores during the year ended March 31, 2022.",negative,negative,0.9557747840881348
+TATAMOTORS_2022,"By 2025, Tata Motors will have 10 EVs in its portfolio.",forward_looking,neutral,0.7806877493858337
+TATAMOTORS_2022,60% of Jaguar Land Rover’s volumes will be pure BEV vehicles by 2030.,forward_looking,neutral,0.8393355011940002
+TATAMOTORS_2022,"The Company aims to achieve net zero carbon emissions across its supply chain, products, and operations by 2039.",forward_looking,positive,0.768478274345398
+TATAMOTORS_2022,The EV market is expected to grow at a CAGR of 36% until 2026.,forward_looking,positive,0.910438060760498
+TATAMOTORS_2022,Jaguar Land Rover plans to launch a pure electric Range Rover by 2024 and five additional all-electric Land Rover models by 2026.,forward_looking,neutral,0.7751707434654236
+TATAMOTORS_2022,The Company expects to continue monitoring the impact of COVID-19 on its operations and financial condition.,forward_looking,positive,0.541513204574585
+TATAMOTORS_2022,The Company aims to improve its liquidity position and operational efficiency in the coming year.,forward_looking,positive,0.9546384811401367
+TATAMOTORS_2022,The Company anticipates a gradual recovery in industry volumes as semiconductor supply improves.,forward_looking,positive,0.953621506690979
+TATAMOTORS_2022,The Company plans to focus on high-margin products to enhance profitability.,forward_looking,positive,0.933276891708374
+TATAMOTORS_2022,"The Company expects to contribute 84.20 crores to the funded pension plans in the year ending March 31, 2023.",forward_looking,positive,0.5289656519889832
+TATAMOTORS_2022,The Company anticipates that the hedged sales will take place over the next one to five years.,forward_looking,neutral,0.8784910440444946
+TATAMOTORS_2022,The ongoing shortage of semiconductors could disrupt production and delay the rollout of new vehicles.,risks,negative,0.958824634552002
+TATAMOTORS_2022,Changes in government regulations and fiscal policies may adversely impact the Company's operations.,risks,negative,0.9024825692176819
+TATAMOTORS_2022,"The Company is exposed to risks associated with product liability, warranties, and recalls.",risks,neutral,0.5473639965057373
+TATAMOTORS_2022,Economic downturns and changes in consumer preferences could negatively affect demand for vehicles.,risks,negative,0.8689074516296387
+TATAMOTORS_2022,Jaguar Land Rover's operations may be significantly affected by geopolitical tensions and trade restrictions.,risks,negative,0.8273577690124512
+TATAMOTORS_2022,The Company faces risks related to fluctuations in foreign currency exchange rates.,risks,negative,0.7098115682601929
+TATAMOTORS_2022,There is a risk of adverse interpretations of tax laws that could impact financial results.,risks,negative,0.9137142896652222
+TATAMOTORS_2022,The Company is exposed to risks from changes in laws and regulations affecting the automotive industry.,risks,neutral,0.5815336108207703
+TATAMOTORS_2022,The Company may encounter difficulties in meeting its financial obligations due to liquidity risks.,risks,negative,0.9353519082069397
+TATAMOTORS_2022,The Company faces potential penalties and legal challenges related to compliance with various regulations.,risks,negative,0.9523601531982422
+TATAMOTORS_2022,The assumptions made about the outcome of legal proceedings are subject to a high degree of uncertainty.,risks,neutral,0.903949499130249
+TATAMOTORS_2022,"The Company is exposed to fluctuations in foreign currency exchange rates, interest rates, equity prices, liquidity and credit risk.",risks,neutral,0.7413229942321777
+TATAMOTORS_2022,The Company faces claims and assertions by various parties which may result in potential losses.,risks,negative,0.9525916576385498

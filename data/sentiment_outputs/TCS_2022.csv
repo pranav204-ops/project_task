@@ -1,0 +1,15 @@
+company,statement,category,sentiment,confidence
+TCS_2022,"The company generated consolidated revenues of US $25.7 billion, experiencing strong growth of 15.9%.",positive,positive,0.9360618591308594
+TCS_2022,"TCS has a cash conversion ratio of 104.2% and free cash flow of ₹36,985 crore.",positive,neutral,0.9235674738883972
+TCS_2022,"The company successfully completed its fourth buyback, amounting to over 102.8% of the free cash flow.",positive,positive,0.922854483127594
+TCS_2022,TCS ranked #1 in Customer Satisfaction in the UK for the ninth consecutive year.,positive,positive,0.9412548542022705
+TCS_2022,"The company has crossed a key diversity milestone with women in the workforce exceeding 200,000.",positive,positive,0.9286345839500427
+TCS_2022,"TCS’ attrition in IT services was 17.4% in FY 2022, indicating a sharp rise in employee turnover across the industry.",negative,positive,0.8215542435646057
+TCS_2022,The supply chain upheavals during the past couple of years are driving a shift towards rebalancing and resilience.,negative,positive,0.48401907086372375
+TCS_2022,The geo-political tensions in Europe and the resultant impact on global economic growth are real threats.,negative,negative,0.5078854560852051
+TCS_2022,"The company aims to deepen customer relationships, expand its addressable market, and gain market share in the years ahead.",forward_looking,positive,0.9174256324768066
+TCS_2022,"TCS expects technology spending to continue growing, with a focus on cloud migration and digital workplace initiatives.",forward_looking,positive,0.9268161058425903
+TCS_2022,"The company is confident of being able to sustain a certain base case growth, with room to maximize in better years.",forward_looking,positive,0.9482713937759399
+TCS_2022,"The change in technology consumption reflects the prevailing trends in the economy, which may impact business operations.",risks,neutral,0.6332628726959229
+TCS_2022,The COVID-19 pandemic continues to pose risks to business continuity and employee health.,risks,negative,0.9520057439804077
+TCS_2022,The company faces risks related to volatile global economic scenarios and potential reductions in client spending.,risks,negative,0.907270610332489

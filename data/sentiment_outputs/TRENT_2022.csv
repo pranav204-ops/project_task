@@ -1,0 +1,18 @@
+company,statement,category,sentiment,confidence
+TRENT_2022,Operating profitability strongly recovered as compared to the last year despite the pandemic.,positive,positive,0.951444685459137
+TRENT_2022,The Company has not issued any shares with differential voting rights.,positive,neutral,0.9549775719642639
+TRENT_2022,The Board of Directors have recommended a final dividend @ 110% i.e. ` 1.10/- per Equity Share.,positive,neutral,0.9027471542358398
+TRENT_2022,The total dividend @ 170% on Equity Shares for FY 2021-22 would involve a total cash outflow of ` 60.43 Crores.,positive,neutral,0.9401395916938782
+TRENT_2022,The Company has laid down procedures to inform the Audit Committee as well as the Board of Directors regarding loans and investments.,positive,neutral,0.91782146692276
+TRENT_2022,The Company reported a total comprehensive loss of ` 135.37 Crores.,negative,negative,0.8495938181877136
+TRENT_2022,The interim dividend payment involved a cash outflow of ` 39.10 Crores.,negative,neutral,0.9136996269226074
+TRENT_2022,The Company incurred a total comprehensive loss of ` 19.29 Crores for the period under review.,negative,negative,0.9473431706428528
+TRENT_2022,The Company has not issued employee stock options nor sweat equity shares.,negative,neutral,0.9335585236549377
+TRENT_2022,The Company has not accepted any deposits or amounts which are deemed to be deposits.,negative,neutral,0.8818145990371704
+TRENT_2022,The Company plans to extend its initiative to support 50 students by 2027.,forward_looking,positive,0.8808292150497437
+TRENT_2022,The merger shall also result in simplification of the group structure.,forward_looking,neutral,0.7634821534156799
+TRENT_2022,The Company expects strong growth opportunities and aims to accelerate the differentiation of its propositions.,forward_looking,positive,0.9198170304298401
+TRENT_2022,The Company is exposed to credit risk from its operating activities and from its financing activities.,risks,neutral,0.7693719863891602
+TRENT_2022,The Company evaluates exchange rate exposure arising from foreign currency transactions.,risks,neutral,0.9431517124176025
+TRENT_2022,The Company is exposed to interest rate risk with respect to returns realised.,risks,neutral,0.8857172727584839
+TRENT_2022,The Company has significant influence in an entity by holding more than 20% of voting rights.,risks,neutral,0.8805893659591675

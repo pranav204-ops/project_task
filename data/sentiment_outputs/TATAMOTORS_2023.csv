@@ -1,0 +1,46 @@
+company,statement,category,sentiment,confidence
+TATAMOTORS_2023,"The Tata Motors Group is a leading global automobile manufacturer, offering an extensive portfolio of smart, integrated, and e-mobility solutions.",positive,positive,0.5297873020172119
+TATAMOTORS_2023,The business recorded strong financial performance as all three core auto businesses turned profitable in H2.,positive,positive,0.9553700685501099
+TATAMOTORS_2023,"Tata Motors is on a journey to make the future of mobility safer, smarter, and greener.",positive,positive,0.7452287673950195
+TATAMOTORS_2023,The company achieved a 24.2% increase in group revenue.,positive,positive,0.9547340273857117
+TATAMOTORS_2023,"Tata Motors has stayed ahead of the competition by offering multiple green fuel options powered by CNG, electric, and hydrogen.",positive,neutral,0.5413712859153748
+TATAMOTORS_2023,We have a healthier gender diversity with 8.79% of our workforce comprising of women employees.,positive,positive,0.537312388420105
+TATAMOTORS_2023,"A high impact launch, followed by consistent and conscious efforts to accelerate the Culture Transformation journey with active employee participation has resulted in improvement in overall employee engagement scores.",positive,positive,0.9554314613342285
+TATAMOTORS_2023,Tata Motors measures the success of its diversity and inclusion initiatives via different parameters.,positive,neutral,0.8718802332878113
+TATAMOTORS_2023,"Jaguar Land Rover has become a significant part of our business, accounting for 65.8% of our total revenues in FY 2022-23.",positive,neutral,0.7140228748321533
+TATAMOTORS_2023,"The finance bill of FY 2023-24 has given reduction in customs duty on machinery and capital goods, used to produce lithium-ion batteries for EVs.",positive,neutral,0.8641566634178162
+TATAMOTORS_2023,The Company provides financing for vehicles sold by dealers in India.,positive,neutral,0.9170593619346619
+TATAMOTORS_2023,The expected wholesale volumes under all scenarios are higher than under the reverse stress test.,positive,positive,0.9511900544166565
+TATAMOTORS_2023,The Company has committed towards leases of Plant Machinery and Equipments.,positive,positive,0.7030365467071533
+TATAMOTORS_2023,"The company faced challenges with a PAT of I2,728 crore, reflecting a robust performance for the third year in succession.",negative,negative,0.503157913684845
+TATAMOTORS_2023,The rise in interest rates and inflationary expectations have posed challenges to the business.,negative,negative,0.9439113140106201
+TATAMOTORS_2023,"The company recorded a loss before tax of GBP 64 million in FY 2022-23, an improvement compared to the GBP 412 million loss in FY 2021-22.",negative,positive,0.5782270431518555
+TATAMOTORS_2023,Jaguar Land Rover's EBIT margin decreased from 5.2% to 5.0%.,negative,negative,0.9707712531089783
+TATAMOTORS_2023,The ongoing shortage of semiconductors that are crucial to our products may prolong or worsen.,negative,negative,0.9426507949829102
+TATAMOTORS_2023,We can still say challenges within our supply chain in sourcing parts or face significant price increases in the future.,negative,negative,0.5425024032592773
+TATAMOTORS_2023,Adverse economic conditions and declines in vehicle sales rates could have a material adverse impact on our business.,negative,negative,0.9292342066764832
+TATAMOTORS_2023,"The global automotive industry, including the luxury segment, is facing increasing competition which could adversely affect our market leadership position.",negative,negative,0.9194564819335938
+TATAMOTORS_2023,The conflict between Russia and Ukraine could have a material adverse impact on our business.,negative,negative,0.8663748502731323
+TATAMOTORS_2023,The Company recorded inventory write-down expense of 723.20 crores.,negative,negative,0.9649816751480103
+TATAMOTORS_2023,"The Company has no material associates as at March 31, 2023.",negative,neutral,0.9449252486228943
+TATAMOTORS_2023,The carrying amount of goodwill has been allocated to CGU as follows.,negative,neutral,0.9312117695808411
+TATAMOTORS_2023,Jaguar Land Rover aims to achieve net zero carbon emissions by 2039.,forward_looking,positive,0.6902270317077637
+TATAMOTORS_2023,"The company expects overall growth to remain high in FY 2023-24, but with industry growth moderating.",forward_looking,positive,0.9485882520675659
+TATAMOTORS_2023,The EV contribution in the portfolio is likely to increase to 25% in 5 years and reach 50% by 2030.,forward_looking,positive,0.9166421890258789
+TATAMOTORS_2023,"We expect our businesses to largely remain self-sustaining, and we aim to fund total product and other investment spending primarily with cash flows from operating activities supported by debt capital markets activities and bank funding, as required.",forward_looking,positive,0.7452116012573242
+TATAMOTORS_2023,"We expect to invest around `38,000 crores in property, plants and equipment in FY 2023-24.",forward_looking,neutral,0.7710362076759338
+TATAMOTORS_2023,We aim to launch Jaguar as a pure electric brand from 2025 by introducing the first Land Rover all electric model by 2024.,forward_looking,neutral,0.6172329187393188
+TATAMOTORS_2023,The Company expects to continue on its growth trajectory and sustain its leadership position.,forward_looking,positive,0.9442269802093506
+TATAMOTORS_2023,"The expected net periodic pension cost for the year ending March 31, 2024 is expected to be 376.09 crores.",forward_looking,neutral,0.9270991086959839
+TATAMOTORS_2023,The Company anticipates that the hedged sales will take place over the next one to five years.,forward_looking,neutral,0.8784910440444946
+TATAMOTORS_2023,"The company is exposed to IT risks, including potential cyber-attacks that could disrupt business operations.",risks,negative,0.7743074297904968
+TATAMOTORS_2023,Supply chain disruptions and commodity inflation could adversely affect production volume and profitability.,risks,negative,0.9252992272377014
+TATAMOTORS_2023,The ongoing geopolitical tensions and inflationary pressures may impact the company's financial performance.,risks,negative,0.9260890483856201
+TATAMOTORS_2023,The ongoing shortage of semiconductors may materially affect our production levels.,risks,negative,0.9484670758247375
+TATAMOTORS_2023,"Disruptions to our supply chains and shortages of essential raw materials, parts and components may adversely affect our production and results of operations.",risks,negative,0.9516457915306091
+TATAMOTORS_2023,We are vulnerable to shifts in global trade and economic policies and outlook.,risks,negative,0.8937231302261353
+TATAMOTORS_2023,The availability of funding may decrease in the future or we may see increases in the cost of credit.,risks,negative,0.858817458152771
+TATAMOTORS_2023,The Company is subject to risks associated with legal proceedings and governmental investigations.,risks,neutral,0.8454561233520508
+TATAMOTORS_2023,The assessment of impairment is based on forecasts of future cashflows which are inherently uncertain.,risks,neutral,0.8635217547416687
+TATAMOTORS_2023,"The Company is exposed primarily to fluctuations in foreign currency exchange rates, interest rates, equity prices, liquidity and credit risk.",risks,neutral,0.8499484658241272
+TATAMOTORS_2023,The Company evaluates the impact of foreign exchange rate fluctuations by assessing its exposure to exchange rate risks.,risks,neutral,0.8935189843177795
